@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CYKMainViewController.h
 //  Homework
 //
 //  Created by jon on 2019/1/3.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CYKMainViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

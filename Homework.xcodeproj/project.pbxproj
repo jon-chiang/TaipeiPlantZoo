@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FC19F8AE21DD984200A12F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8AD21DD984200A12F03 /* AppDelegate.m */; };
-		FC19F8B121DD984200A12F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8B021DD984200A12F03 /* ViewController.m */; };
 		FC19F8B421DD984200A12F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC19F8B221DD984200A12F03 /* Main.storyboard */; };
 		FC19F8B621DD984400A12F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC19F8B521DD984400A12F03 /* Assets.xcassets */; };
 		FC19F8B921DD984400A12F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC19F8B721DD984400A12F03 /* LaunchScreen.storyboard */; };
 		FC19F8BC21DD984400A12F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8BB21DD984400A12F03 /* main.m */; };
 		FC19F8C621DD984400A12F03 /* HomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8C521DD984400A12F03 /* HomeworkTests.m */; };
 		FC19F8D121DD984400A12F03 /* HomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8D021DD984400A12F03 /* HomeworkUITests.m */; };
+		FC19F8E021DD98B600A12F03 /* CYKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8DF21DD98B600A12F03 /* CYKMainViewController.m */; };
+		FC19F8E421DD9EB800A12F03 /* CYKZooTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8E221DD9EB800A12F03 /* CYKZooTableViewCell.m */; };
+		FC19F8E521DD9EB800A12F03 /* CYKZooTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC19F8E321DD9EB800A12F03 /* CYKZooTableViewCell.xib */; };
+		FC19F8E821DD9F8F00A12F03 /* CYKZooSummaryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8E721DD9F8F00A12F03 /* CYKZooSummaryHeaderView.m */; };
+		FC19F8EA21DD9FA000A12F03 /* CYKZooSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC19F8E921DD9FA000A12F03 /* CYKZooSummaryHeaderView.xib */; };
+		FC19F8EF21DF542900A12F03 /* PlantFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8EE21DF542900A12F03 /* PlantFetcher.m */; };
+		FC19F8F221DF55AF00A12F03 /* Plant.m in Sources */ = {isa = PBXBuildFile; fileRef = FC19F8F121DF55AF00A12F03 /* Plant.m */; };
+		FC19F8F521E110C200A12F03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC19F8F421E110C200A12F03 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 		FC19F8A921DD984200A12F03 /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC19F8AC21DD984200A12F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC19F8AD21DD984200A12F03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC19F8AF21DD984200A12F03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC19F8B021DD984200A12F03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC19F8B321DD984200A12F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC19F8B521DD984400A12F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC19F8B821DD984400A12F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,19 @@
 		FC19F8CC21DD984400A12F03 /* HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC19F8D021DD984400A12F03 /* HomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkUITests.m; sourceTree = "<group>"; };
 		FC19F8D221DD984400A12F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC19F8DE21DD98B600A12F03 /* CYKMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYKMainViewController.h; sourceTree = "<group>"; };
+		FC19F8DF21DD98B600A12F03 /* CYKMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYKMainViewController.m; sourceTree = "<group>"; };
+		FC19F8E121DD9EB800A12F03 /* CYKZooTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYKZooTableViewCell.h; sourceTree = "<group>"; };
+		FC19F8E221DD9EB800A12F03 /* CYKZooTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYKZooTableViewCell.m; sourceTree = "<group>"; };
+		FC19F8E321DD9EB800A12F03 /* CYKZooTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYKZooTableViewCell.xib; sourceTree = "<group>"; };
+		FC19F8E621DD9F8F00A12F03 /* CYKZooSummaryHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYKZooSummaryHeaderView.h; sourceTree = "<group>"; };
+		FC19F8E721DD9F8F00A12F03 /* CYKZooSummaryHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYKZooSummaryHeaderView.m; sourceTree = "<group>"; };
+		FC19F8E921DD9FA000A12F03 /* CYKZooSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYKZooSummaryHeaderView.xib; sourceTree = "<group>"; };
+		FC19F8ED21DF542900A12F03 /* PlantFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlantFetcher.h; sourceTree = "<group>"; };
+		FC19F8EE21DF542900A12F03 /* PlantFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlantFetcher.m; sourceTree = "<group>"; };
+		FC19F8F021DF55AF00A12F03 /* Plant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plant.h; sourceTree = "<group>"; };
+		FC19F8F121DF55AF00A12F03 /* Plant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plant.m; sourceTree = "<group>"; };
+		FC19F8F421E110C200A12F03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC19F8F521E110C200A12F03 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,7 @@
 				FC19F8C421DD984400A12F03 /* HomeworkTests */,
 				FC19F8CF21DD984400A12F03 /* HomeworkUITests */,
 				FC19F8AA21DD984200A12F03 /* Products */,
+				FC19F8F321E110C100A12F03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,13 +123,23 @@
 			children = (
 				FC19F8AC21DD984200A12F03 /* AppDelegate.h */,
 				FC19F8AD21DD984200A12F03 /* AppDelegate.m */,
-				FC19F8AF21DD984200A12F03 /* ViewController.h */,
-				FC19F8B021DD984200A12F03 /* ViewController.m */,
 				FC19F8B221DD984200A12F03 /* Main.storyboard */,
 				FC19F8B521DD984400A12F03 /* Assets.xcassets */,
 				FC19F8B721DD984400A12F03 /* LaunchScreen.storyboard */,
 				FC19F8BA21DD984400A12F03 /* Info.plist */,
 				FC19F8BB21DD984400A12F03 /* main.m */,
+				FC19F8DE21DD98B600A12F03 /* CYKMainViewController.h */,
+				FC19F8DF21DD98B600A12F03 /* CYKMainViewController.m */,
+				FC19F8ED21DF542900A12F03 /* PlantFetcher.h */,
+				FC19F8EE21DF542900A12F03 /* PlantFetcher.m */,
+				FC19F8F021DF55AF00A12F03 /* Plant.h */,
+				FC19F8F121DF55AF00A12F03 /* Plant.m */,
+				FC19F8E121DD9EB800A12F03 /* CYKZooTableViewCell.h */,
+				FC19F8E221DD9EB800A12F03 /* CYKZooTableViewCell.m */,
+				FC19F8E321DD9EB800A12F03 /* CYKZooTableViewCell.xib */,
+				FC19F8E621DD9F8F00A12F03 /* CYKZooSummaryHeaderView.h */,
+				FC19F8E721DD9F8F00A12F03 /* CYKZooSummaryHeaderView.m */,
+				FC19F8E921DD9FA000A12F03 /* CYKZooSummaryHeaderView.xib */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -130,6 +160,14 @@
 				FC19F8D221DD984400A12F03 /* Info.plist */,
 			);
 			path = HomeworkUITests;
+			sourceTree = "<group>";
+		};
+		FC19F8F321E110C100A12F03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC19F8F421E110C200A12F03 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +275,8 @@
 			files = (
 				FC19F8B921DD984400A12F03 /* LaunchScreen.storyboard in Resources */,
 				FC19F8B621DD984400A12F03 /* Assets.xcassets in Resources */,
+				FC19F8E521DD9EB800A12F03 /* CYKZooTableViewCell.xib in Resources */,
+				FC19F8EA21DD9FA000A12F03 /* CYKZooSummaryHeaderView.xib in Resources */,
 				FC19F8B421DD984200A12F03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC19F8B121DD984200A12F03 /* ViewController.m in Sources */,
+				FC19F8E821DD9F8F00A12F03 /* CYKZooSummaryHeaderView.m in Sources */,
 				FC19F8BC21DD984400A12F03 /* main.m in Sources */,
+				FC19F8F221DF55AF00A12F03 /* Plant.m in Sources */,
 				FC19F8AE21DD984200A12F03 /* AppDelegate.m in Sources */,
+				FC19F8EF21DF542900A12F03 /* PlantFetcher.m in Sources */,
+				FC19F8E421DD9EB800A12F03 /* CYKZooTableViewCell.m in Sources */,
+				FC19F8E021DD98B600A12F03 /* CYKMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
